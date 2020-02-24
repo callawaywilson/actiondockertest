@@ -1,14 +1,17 @@
-on: [push]
+push:
+    branches:    
+      - master 
+      - staging
 
 jobs:
-  hello_world_job:
+  build-deploy:
     runs-on: ubuntu-latest
     name: Build and deploy
     steps:
     # To use this repository's private action, you must check out the repository
     - name: Checkout
       uses: actions/checkout@v2
-    - name: Build & deploy script
+    - name: Run build & deploy script
       id: build-and-deploy
       uses: ./build/action-staging
       with:

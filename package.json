@@ -1,6 +1,7 @@
 {
   "name": "actiondockertest",
   "private": true,
+  "version": "0.0.1",
   "engines": {
     "node": ">=10"
   },
