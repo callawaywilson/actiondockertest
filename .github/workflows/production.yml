@@ -2,7 +2,7 @@ on:
   push:
     tags:
       - v*
-name: Production
+name: Production Build & Deploy
 jobs:
   build-deploy:
     runs-on: ubuntu-latest

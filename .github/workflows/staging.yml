@@ -3,7 +3,7 @@ on:
     branches:    
       - master 
       - staging
-name: Staging
+name: Staging Build & Deploy
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
