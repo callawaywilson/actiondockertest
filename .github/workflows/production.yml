@@ -1,9 +1,8 @@
 on: 
   push:
-    branches:    
-      - master 
-      - staging
-name: Staging
+    tags:
+      - v*
+name: Production
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -16,7 +15,7 @@ jobs:
       id: build-and-deploy
       uses: ./build/action
       with:
-        target: 'staging'
+        target: 'production'
       env: 
         ENV_KEY: ${{ secrets.ENV_KEY }}
         ENV_LOGIN: 'LOGIN'

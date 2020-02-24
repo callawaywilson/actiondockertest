@@ -1,5 +1,5 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'ActionDockerTest'
+description: 'Build action docker test'
 inputs:
   target: 
     description: 'Target build'
