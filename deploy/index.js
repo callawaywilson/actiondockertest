@@ -1,4 +1,4 @@
-module.exports = (cluster, tag='latest') => {
+module.exports = ({cluster, tag='latest'}) => {
    try {
     console.log('ENV_LOGIN: ', process.env.ENV_LOGIN)
     console.log('ENV_KEY: ', process.env.ENV_KEY)
