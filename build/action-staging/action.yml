@@ -1,10 +1,10 @@
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
-  ENV_KEY: 
-    description: 'Environment Key'
+  target: 
+    description: 'Target build'
     required: true
-    default: 'ENV Key Missing'
+    default: 'NoTarget'
 runs:
   using: 'docker'
   image: 'Dockerfile'
