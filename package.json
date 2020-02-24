@@ -1,0 +1,10 @@
+{
+  "name": "actiondockertest",
+  "private": true,
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.494.0"
+  }
+}
