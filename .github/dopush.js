@@ -1,0 +1,1 @@
+console.log("Pushing ", process.env.BUILD_TARGET);
