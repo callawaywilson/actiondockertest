@@ -6,6 +6,6 @@
     "node": ">=10"
   },
   "dependencies": {
-    "aws-sdk": "^2.494.0"
+    "aws-sdk": "^2.814.0"
   }
 }
